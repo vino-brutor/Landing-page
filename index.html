@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumo a marte</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container-lg pt-5 pb-5 d-flex justify-content-center">
+        <div class="card w-50 bg-primary">
+            <h1 class="card-title col-12 text-center text-danger">Rumo a marte</h1>
+            <div class="card-body">
+                <form action="">
+                    <div class="input-group">
+                        <p class="card-text col-12">1 - Qual seu nome?</p>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text col-4">Primeiro nome</span>
+                            <input type="text" class="form-control col-8">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text col-4">Segundo nome</span>
+                            <input type="text" class="form-control ">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <p class="card-text col-12">2 - Qual seu gênero?</p>
+                        <div class="form-check col-12">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="genero1">
+                            <label class="form-check-label" for="genero1">
+                              Feminino
+                            </label>
+                          </div>
+                          <div class="form-check col-12">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="genero2">
+                            <label class="form-check-label" for="genero2">
+                              Masculino
+                            </label>
+                          </div>
+                          <div class="form-check col-12">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="genero3">
+                            <label class="form-check-label" for="genero3">
+                              Prefiro não informar
+                            </label>
+                          </div>
+                    </div>
+                    <div class="input-group">
+                        <p class="card-text col-12">3 - Quais os seus treinamentos?</p>
+                        <div class="form-check form-switch col-12">
+                            <input class="form-check-input" id="switch1" type="checkbox" role="switch" value="treino-basico">
+                            <label for="switch1" class="form-check-label">Treinamento básico de astronauta</label>
+                        </div>
+                        <div class="form-check form-switch col-12">
+                            <input class="form-check-input" id="switch1" type="checkbox" role="switch" value="treino-basico">
+                            <label for="switch1" class="form-check-label">Treinamnto físico básico</label>
+                        </div>
+                        <div class="form-check form-switch col-12">
+                            <input class="form-check-input" id="switch1" type="checkbox" role="switch" value="treino-basico">
+                            <label for="switch1" class="form-check-label">Treinamento avançado de astronauta</label>
+                        </div>
+                        <div class="form-check form-switch col-12">
+                            <input class="form-check-input" id="switch1" type="checkbox" role="switch" value="treino-basico">
+                            <label for="switch1" class="form-check-label">Treinamento físico intenso</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <p class="card-text col-12">4 - Quais suas qualidades</p>
+                        <div class="form-check col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">Proativo</label>
+                        </div>
+                        <div class="form-check col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">Resistência</label>
+                        </div>
+                        <div class="form-check col-4 ">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label" for="defaultCheck2">Não vomito fácil</label>
+                        </div>
+                        <div class="form-check col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                            <label class="form-check-label" for="defaultCheck3">Não temo os aliens</label>
+                        </div>
+                        <div class="form-check col-8">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                            <label class="form-check-label" for="defaultCheck4">Assisti todos os star wars</label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="submit" class="btn btn-danger">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
